@@ -66,9 +66,7 @@ def echo(bot):
 
         if update.message:  # your bot can receive updates without messages
             # Reply to the message
-            print(update.message.text)
             if update.message.text in {'/acende@Papocobot','/acende'}:
-                print('NAO SOLTA ROJAO AIN AIN AIN AIN')
                 bot.send_message(
                     chat_id=update.message.chat_id,
                     text='AIIINNNNNN'
